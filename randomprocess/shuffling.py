@@ -58,5 +58,5 @@ while not game_over:
 	if pause==0:
 		randomtotop()
 		for i in range(cards):
-			pygame.draw.rect(screen, (0,deck[i]*colormultiplier,255-deck[i]*colormultiplier), (topleft[0],topleft[1]+i*thickness,cardwidth,thickness))
+			pygame.draw.rect(screen, (deck[i]*colormultiplier,0,0), (topleft[0],topleft[1]+i*thickness,cardwidth,thickness))
 		pygame.display.update()

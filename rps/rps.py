@@ -3,7 +3,7 @@ import random
 import sys
 import time
 
-order=3
+order=2
 rock=0
 paper=1
 scissor=2 
